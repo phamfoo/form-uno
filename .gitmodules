@@ -1,0 +1,9 @@
+[submodule "src/pcbs/libs/marbastlib"]
+	path = src/pcbs/libs/marbastlib
+	url = git@github.com:ebastler/marbastlib.git
+[submodule "src/pcbs/libs/kbd"]
+	path = src/pcbs/libs/kbd
+	url = git@github.com:foostan/kbd.git
+[submodule "src/pcbs/libs/kleeb"]
+	path = src/pcbs/libs/kleeb
+	url = git@github.com:crides/kleeb.git

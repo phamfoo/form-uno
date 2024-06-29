@@ -1,0 +1,440 @@
+[kbplacer_plugin_action.py:63]: Plugin version: 0.10
+[kbplacer_plugin_action.py:64]: Python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+[kbplacer_plugin_action.py:65]: KiCad version: 8.0.3 with 4.2.2a1 osx-cocoa (phoenix) wxWidgets 3.2.4
+[kbplacer_dialog.py:584]: Language: en
+[kbplacer_plugin_action.py:76]: GUI state: {"layout_path": "/Users/tien/Library/Mobile Documents/com~apple~CloudDocs/keebs/form-uno/keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "diode_info": {"annotation_format": "D{}", "position_option": "Relative", "position": null, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:299]: Set key 1U distance: 19050000/19050000
+[key_placer.py:112]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'unconnected-(SW56-Pad2)', 'unconnected-(D56-K-Pad1)'}): ['SW56'], frozenset({'unconnected-(SW16-Pad2)', 'unconnected-(D16-K-Pad1)'}): ['SW16'], frozenset({'unconnected-(SW8-Pad2)', 'unconnected-(D8-K-Pad1)'}): ['SW8'], frozenset({'unconnected-(D53-K-Pad1)', 'unconnected-(SW53-Pad2)'}): ['SW53'], frozenset({'unconnected-(SW9-Pad2)', 'unconnected-(D9-K-Pad1)'}): ['SW9'], frozenset({'unconnected-(SW44-Pad2)', 'unconnected-(D44-K-Pad1)'}): ['SW44'], frozenset({'unconnected-(SW49-Pad2)', 'unconnected-(D49-K-Pad1)'}): ['SW49'], frozenset({'unconnected-(D32-K-Pad1)', 'unconnected-(SW32-Pad2)'}): ['SW32'], frozenset({'unconnected-(SW18-Pad2)', 'unconnected-(D18-K-Pad1)'}): ['SW18'], frozenset({'unconnected-(D38-K-Pad1)', 'unconnected-(SW38-Pad2)'}): ['SW38'], frozenset({'unconnected-(SW31-Pad2)', 'unconnected-(D31-K-Pad1)'}): ['SW31'], frozenset({'unconnected-(SW14-Pad2)', 'unconnected-(D14-K-Pad1)'}): ['SW14'], frozenset({'unconnected-(SW6-Pad2)', 'unconnected-(D6-K-Pad1)'}): ['SW6'], frozenset({'unconnected-(D40-K-Pad1)', 'unconnected-(SW40-Pad2)'}): ['SW40'], frozenset({'unconnected-(D55-K-Pad1)', 'unconnected-(SW55-Pad2)'}): ['SW55'], frozenset({'unconnected-(SW22-Pad2)', 'unconnected-(D22-K-Pad1)'}): ['SW22'], frozenset({'unconnected-(SW30-Pad2)', 'unconnected-(D30-K-Pad1)'}): ['SW30'], frozenset({'unconnected-(SW58-Pad2)', 'unconnected-(D58-K-Pad1)'}): ['SW58'], frozenset({'unconnected-(SW17-Pad2)', 'unconnected-(D17-K-Pad1)'}): ['SW17'], frozenset({'unconnected-(SW45-Pad2)', 'unconnected-(D45-K-Pad1)'}): ['SW45'], frozenset({'unconnected-(D33-K-Pad1)', 'unconnected-(SW33-Pad2)'}): ['SW33'], frozenset({'unconnected-(SW23-Pad2)', 'unconnected-(D23-K-Pad1)'}): ['SW23'], frozenset({'unconnected-(D19-K-Pad1)', 'unconnected-(SW19-Pad2)'}): ['SW19'], frozenset({'unconnected-(SW20-Pad2)', 'unconnected-(D20-K-Pad1)'}): ['SW20'], frozenset({'unconnected-(SW29-Pad2)', 'unconnected-(D29-K-Pad1)'}): ['SW29'], frozenset({'unconnected-(D28-K-Pad1)', 'unconnected-(SW28-Pad2)'}): ['SW28'], frozenset({'unconnected-(D5-K-Pad1)', 'unconnected-(SW5-Pad2)'}): ['SW5'], frozenset({'unconnected-(SW37-Pad2)', 'unconnected-(D37-K-Pad1)'}): ['SW37'], frozenset({'unconnected-(SW34-Pad2)', 'unconnected-(D34-K-Pad1)'}): ['SW34'], frozenset({'unconnected-(D46-K-Pad1)', 'unconnected-(SW46-Pad2)'}): ['SW46'], frozenset({'unconnected-(D10-K-Pad1)', 'unconnected-(SW10-Pad2)'}): ['SW10'], frozenset({'unconnected-(D41-K-Pad1)', 'unconnected-(SW41-Pad2)'}): ['SW41'], frozenset({'unconnected-(D13-K-Pad1)', 'unconnected-(SW13-Pad2)'}): ['SW13'], frozenset({'unconnected-(SW39-Pad2)', 'unconnected-(D39-K-Pad1)'}): ['SW39'], frozenset({'unconnected-(SW3-Pad2)', 'unconnected-(D3-K-Pad1)'}): ['SW3'], frozenset({'unconnected-(D50-K-Pad1)', 'unconnected-(SW50-Pad2)'}): ['SW50'], frozenset({'unconnected-(SW15-Pad2)', 'unconnected-(D15-K-Pad1)'}): ['SW15'], frozenset({'unconnected-(SW25-Pad2)', 'unconnected-(D25-K-Pad1)'}): ['SW25'], frozenset({'unconnected-(SW47-Pad2)', 'unconnected-(D47-K-Pad1)'}): ['SW47'], frozenset({'unconnected-(SW21-Pad2)', 'unconnected-(D21-K-Pad1)'}): ['SW21'], frozenset({'unconnected-(SW7-Pad2)', 'unconnected-(D7-K-Pad1)'}): ['SW7'], frozenset({'unconnected-(D42-K-Pad1)', 'unconnected-(SW42-Pad2)'}): ['SW42'], frozenset({'unconnected-(SW48-Pad2)', 'unconnected-(D48-K-Pad1)'}): ['SW48'], frozenset({'unconnected-(D43-K-Pad1)', 'unconnected-(SW43-Pad2)'}): ['SW43'], frozenset({'unconnected-(SW2-Pad2)', 'unconnected-(D2-K-Pad1)'}): ['SW2'], frozenset({'unconnected-(SW27-Pad2)', 'unconnected-(D27-K-Pad1)'}): ['SW27'], frozenset({'unconnected-(SW12-Pad2)', 'unconnected-(D12-K-Pad1)'}): ['SW12'], frozenset({'unconnected-(SW60-Pad2)', 'unconnected-(D60-K-Pad1)'}): ['SW60'], frozenset({'unconnected-(D26-K-Pad1)', 'unconnected-(SW26-Pad2)'}): ['SW26'], frozenset({'unconnected-(D24-K-Pad1)', 'unconnected-(SW24-Pad2)'}): ['SW24'], frozenset({'unconnected-(SW57-Pad2)', 'unconnected-(D57-K-Pad1)'}): ['SW57'], frozenset({'unconnected-(SW4-Pad2)', 'unconnected-(D4-K-Pad1)'}): ['SW4'], frozenset({'unconnected-(D1-K-Pad1)', 'unconnected-(SW1-Pad2)'}): ['SW1'], frozenset({'unconnected-(SW51-Pad2)', 'unconnected-(D51-K-Pad1)'}): ['SW51'], frozenset({'unconnected-(D36-K-Pad1)', 'unconnected-(SW36-Pad2)'}): ['SW36'], frozenset({'unconnected-(D54-K-Pad1)', 'unconnected-(SW54-Pad2)'}): ['SW54'], frozenset({'unconnected-(SW35-Pad2)', 'unconnected-(D35-K-Pad1)'}): ['SW35'], frozenset({'unconnected-(SW52-Pad2)', 'unconnected-(D52-K-Pad1)'}): ['SW52'], frozenset({'unconnected-(D11-K-Pad1)', 'unconnected-(SW11-Pad2)'}): ['SW11'], frozenset({'unconnected-(D59-K-Pad1)', 'unconnected-(SW59-Pad2)'}): ['SW59']})
+[key_placer.py:116]: Diodes by switch: {'SW43': ['D43'], 'SW33': ['D33'], 'SW48': ['D48'], 'SW37': ['D37'], 'SW27': ['D27'], 'SW14': ['D14'], 'SW46': ['D46'], 'SW49': ['D49'], 'SW25': ['D25'], 'SW47': ['D47'], 'SW23': ['D23'], 'SW41': ['D41'], 'SW3': ['D3'], 'SW56': ['D56'], 'SW18': ['D18'], 'SW1': ['D1'], 'SW54': ['D54'], 'SW19': ['D19'], 'SW22': ['D22'], 'SW36': ['D36'], 'SW38': ['D38'], 'SW45': ['D45'], 'SW32': ['D32'], 'SW2': ['D2'], 'SW15': ['D15'], 'SW55': ['D55'], 'SW11': ['D11'], 'SW8': ['D8'], 'SW4': ['D4'], 'SW57': ['D57'], 'SW58': ['D58'], 'SW52': ['D52'], 'SW28': ['D28'], 'SW10': ['D10'], 'SW6': ['D6'], 'SW20': ['D20'], 'SW34': ['D34'], 'SW31': ['D31'], 'SW12': ['D12'], 'SW29': ['D29'], 'SW30': ['D30'], 'SW21': ['D21'], 'SW17': ['D17'], 'SW60': ['D60'], 'SW40': ['D40'], 'SW13': ['D13'], 'SW5': ['D5'], 'SW39': ['D39'], 'SW7': ['D7'], 'SW53': ['D53'], 'SW50': ['D50'], 'SW42': ['D42'], 'SW26': ['D26'], 'SW24': ['D24'], 'SW16': ['D16'], 'SW59': ['D59'], 'SW44': ['D44'], 'SW51': ['D51'], 'SW9': ['D9'], 'SW35': ['D35']}
+[board_modifier.py:63]: Searching for SW1 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[key_placer.py:495]: Looking for connection template between SW1 and other elements
+[board_modifier.py:96]: Getting SW1 footprint position: (21590000, 43180000)
+[key_placer.py:539]: Got connection template: 
+[key_placer.py:112]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'unconnected-(SW56-Pad2)', 'unconnected-(D56-K-Pad1)'}): ['SW56'], frozenset({'unconnected-(SW16-Pad2)', 'unconnected-(D16-K-Pad1)'}): ['SW16'], frozenset({'unconnected-(SW8-Pad2)', 'unconnected-(D8-K-Pad1)'}): ['SW8'], frozenset({'unconnected-(D53-K-Pad1)', 'unconnected-(SW53-Pad2)'}): ['SW53'], frozenset({'unconnected-(SW9-Pad2)', 'unconnected-(D9-K-Pad1)'}): ['SW9'], frozenset({'unconnected-(SW44-Pad2)', 'unconnected-(D44-K-Pad1)'}): ['SW44'], frozenset({'unconnected-(SW49-Pad2)', 'unconnected-(D49-K-Pad1)'}): ['SW49'], frozenset({'unconnected-(D32-K-Pad1)', 'unconnected-(SW32-Pad2)'}): ['SW32'], frozenset({'unconnected-(SW18-Pad2)', 'unconnected-(D18-K-Pad1)'}): ['SW18'], frozenset({'unconnected-(D38-K-Pad1)', 'unconnected-(SW38-Pad2)'}): ['SW38'], frozenset({'unconnected-(SW31-Pad2)', 'unconnected-(D31-K-Pad1)'}): ['SW31'], frozenset({'unconnected-(SW14-Pad2)', 'unconnected-(D14-K-Pad1)'}): ['SW14'], frozenset({'unconnected-(SW6-Pad2)', 'unconnected-(D6-K-Pad1)'}): ['SW6'], frozenset({'unconnected-(D40-K-Pad1)', 'unconnected-(SW40-Pad2)'}): ['SW40'], frozenset({'unconnected-(D55-K-Pad1)', 'unconnected-(SW55-Pad2)'}): ['SW55'], frozenset({'unconnected-(SW22-Pad2)', 'unconnected-(D22-K-Pad1)'}): ['SW22'], frozenset({'unconnected-(SW30-Pad2)', 'unconnected-(D30-K-Pad1)'}): ['SW30'], frozenset({'unconnected-(SW58-Pad2)', 'unconnected-(D58-K-Pad1)'}): ['SW58'], frozenset({'unconnected-(SW17-Pad2)', 'unconnected-(D17-K-Pad1)'}): ['SW17'], frozenset({'unconnected-(SW45-Pad2)', 'unconnected-(D45-K-Pad1)'}): ['SW45'], frozenset({'unconnected-(D33-K-Pad1)', 'unconnected-(SW33-Pad2)'}): ['SW33'], frozenset({'unconnected-(SW23-Pad2)', 'unconnected-(D23-K-Pad1)'}): ['SW23'], frozenset({'unconnected-(D19-K-Pad1)', 'unconnected-(SW19-Pad2)'}): ['SW19'], frozenset({'unconnected-(SW20-Pad2)', 'unconnected-(D20-K-Pad1)'}): ['SW20'], frozenset({'unconnected-(SW29-Pad2)', 'unconnected-(D29-K-Pad1)'}): ['SW29'], frozenset({'unconnected-(D28-K-Pad1)', 'unconnected-(SW28-Pad2)'}): ['SW28'], frozenset({'unconnected-(D5-K-Pad1)', 'unconnected-(SW5-Pad2)'}): ['SW5'], frozenset({'unconnected-(SW37-Pad2)', 'unconnected-(D37-K-Pad1)'}): ['SW37'], frozenset({'unconnected-(SW34-Pad2)', 'unconnected-(D34-K-Pad1)'}): ['SW34'], frozenset({'unconnected-(D46-K-Pad1)', 'unconnected-(SW46-Pad2)'}): ['SW46'], frozenset({'unconnected-(D10-K-Pad1)', 'unconnected-(SW10-Pad2)'}): ['SW10'], frozenset({'unconnected-(D41-K-Pad1)', 'unconnected-(SW41-Pad2)'}): ['SW41'], frozenset({'unconnected-(D13-K-Pad1)', 'unconnected-(SW13-Pad2)'}): ['SW13'], frozenset({'unconnected-(SW39-Pad2)', 'unconnected-(D39-K-Pad1)'}): ['SW39'], frozenset({'unconnected-(SW3-Pad2)', 'unconnected-(D3-K-Pad1)'}): ['SW3'], frozenset({'unconnected-(D50-K-Pad1)', 'unconnected-(SW50-Pad2)'}): ['SW50'], frozenset({'unconnected-(SW15-Pad2)', 'unconnected-(D15-K-Pad1)'}): ['SW15'], frozenset({'unconnected-(SW25-Pad2)', 'unconnected-(D25-K-Pad1)'}): ['SW25'], frozenset({'unconnected-(SW47-Pad2)', 'unconnected-(D47-K-Pad1)'}): ['SW47'], frozenset({'unconnected-(SW21-Pad2)', 'unconnected-(D21-K-Pad1)'}): ['SW21'], frozenset({'unconnected-(SW7-Pad2)', 'unconnected-(D7-K-Pad1)'}): ['SW7'], frozenset({'unconnected-(D42-K-Pad1)', 'unconnected-(SW42-Pad2)'}): ['SW42'], frozenset({'unconnected-(SW48-Pad2)', 'unconnected-(D48-K-Pad1)'}): ['SW48'], frozenset({'unconnected-(D43-K-Pad1)', 'unconnected-(SW43-Pad2)'}): ['SW43'], frozenset({'unconnected-(SW2-Pad2)', 'unconnected-(D2-K-Pad1)'}): ['SW2'], frozenset({'unconnected-(SW27-Pad2)', 'unconnected-(D27-K-Pad1)'}): ['SW27'], frozenset({'unconnected-(SW12-Pad2)', 'unconnected-(D12-K-Pad1)'}): ['SW12'], frozenset({'unconnected-(SW60-Pad2)', 'unconnected-(D60-K-Pad1)'}): ['SW60'], frozenset({'unconnected-(D26-K-Pad1)', 'unconnected-(SW26-Pad2)'}): ['SW26'], frozenset({'unconnected-(D24-K-Pad1)', 'unconnected-(SW24-Pad2)'}): ['SW24'], frozenset({'unconnected-(SW57-Pad2)', 'unconnected-(D57-K-Pad1)'}): ['SW57'], frozenset({'unconnected-(SW4-Pad2)', 'unconnected-(D4-K-Pad1)'}): ['SW4'], frozenset({'unconnected-(D1-K-Pad1)', 'unconnected-(SW1-Pad2)'}): ['SW1'], frozenset({'unconnected-(SW51-Pad2)', 'unconnected-(D51-K-Pad1)'}): ['SW51'], frozenset({'unconnected-(D36-K-Pad1)', 'unconnected-(SW36-Pad2)'}): ['SW36'], frozenset({'unconnected-(D54-K-Pad1)', 'unconnected-(SW54-Pad2)'}): ['SW54'], frozenset({'unconnected-(SW35-Pad2)', 'unconnected-(D35-K-Pad1)'}): ['SW35'], frozenset({'unconnected-(SW52-Pad2)', 'unconnected-(D52-K-Pad1)'}): ['SW52'], frozenset({'unconnected-(D11-K-Pad1)', 'unconnected-(SW11-Pad2)'}): ['SW11'], frozenset({'unconnected-(D59-K-Pad1)', 'unconnected-(SW59-Pad2)'}): ['SW59']})
+[key_placer.py:116]: Diodes by switch: {'SW43': ['D43'], 'SW33': ['D33'], 'SW48': ['D48'], 'SW37': ['D37'], 'SW27': ['D27'], 'SW14': ['D14'], 'SW46': ['D46'], 'SW49': ['D49'], 'SW25': ['D25'], 'SW47': ['D47'], 'SW23': ['D23'], 'SW41': ['D41'], 'SW3': ['D3'], 'SW56': ['D56'], 'SW18': ['D18'], 'SW1': ['D1'], 'SW54': ['D54'], 'SW19': ['D19'], 'SW22': ['D22'], 'SW36': ['D36'], 'SW38': ['D38'], 'SW45': ['D45'], 'SW32': ['D32'], 'SW2': ['D2'], 'SW15': ['D15'], 'SW55': ['D55'], 'SW11': ['D11'], 'SW8': ['D8'], 'SW4': ['D4'], 'SW57': ['D57'], 'SW58': ['D58'], 'SW52': ['D52'], 'SW28': ['D28'], 'SW10': ['D10'], 'SW6': ['D6'], 'SW20': ['D20'], 'SW34': ['D34'], 'SW31': ['D31'], 'SW12': ['D12'], 'SW29': ['D29'], 'SW30': ['D30'], 'SW21': ['D21'], 'SW17': ['D17'], 'SW60': ['D60'], 'SW40': ['D40'], 'SW13': ['D13'], 'SW5': ['D5'], 'SW39': ['D39'], 'SW7': ['D7'], 'SW53': ['D53'], 'SW50': ['D50'], 'SW42': ['D42'], 'SW26': ['D26'], 'SW24': ['D24'], 'SW16': ['D16'], 'SW59': ['D59'], 'SW44': ['D44'], 'SW51': ['D51'], 'SW9': ['D9'], 'SW35': ['D35']}
+[board_modifier.py:96]: Getting SW1 footprint position: (21590000, 43180000)
+[board_modifier.py:96]: Getting D1 footprint position: (13605648, 46091194)
+[key_placer.py:811]: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=7.984352, y=-2.911194, orientation=-90.0, side=<Side.BACK: 'Back'>), template_path='')
+[kle_serial.py:749]: User layout: [[{'a': 7}, '', '', '', '', '', '', '', '', '', '', '', ''], ['', '', '', '', '', '', '', '', '', '', '', ''], ['', '', '', '', '', '', '', '', '', '', '', ''], ['', '', '', '', '', '', '', '', '', '', '', ''], ['', '', '', '', '', '', '', '', '', '', '', '']]
+[key_placer.py:595]: Layout offset: (28575000, 28575000)
+[board_modifier.py:83]: Setting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:83]: Setting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:83]: Setting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:83]: Setting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:83]: Setting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:83]: Setting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:83]: Setting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:83]: Setting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:83]: Setting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:83]: Setting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:83]: Setting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:83]: Setting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:83]: Setting SW13 footprint position: (38100000, 57150000)
+[board_modifier.py:83]: Setting SW14 footprint position: (57150000, 57150000)
+[board_modifier.py:83]: Setting SW15 footprint position: (76200000, 57150000)
+[board_modifier.py:83]: Setting SW16 footprint position: (95250000, 57150000)
+[board_modifier.py:83]: Setting SW17 footprint position: (114300000, 57150000)
+[board_modifier.py:83]: Setting SW18 footprint position: (133350000, 57150000)
+[board_modifier.py:83]: Setting SW19 footprint position: (152400000, 57150000)
+[board_modifier.py:83]: Setting SW20 footprint position: (171450000, 57150000)
+[board_modifier.py:83]: Setting SW21 footprint position: (190500000, 57150000)
+[board_modifier.py:83]: Setting SW22 footprint position: (209550000, 57150000)
+[board_modifier.py:83]: Setting SW23 footprint position: (228600000, 57150000)
+[board_modifier.py:83]: Setting SW24 footprint position: (247650000, 57150000)
+[board_modifier.py:83]: Setting SW25 footprint position: (38100000, 76200000)
+[board_modifier.py:83]: Setting SW26 footprint position: (57150000, 76200000)
+[board_modifier.py:83]: Setting SW27 footprint position: (76200000, 76200000)
+[board_modifier.py:83]: Setting SW28 footprint position: (95250000, 76200000)
+[board_modifier.py:83]: Setting SW29 footprint position: (114300000, 76200000)
+[board_modifier.py:83]: Setting SW30 footprint position: (133350000, 76200000)
+[board_modifier.py:83]: Setting SW31 footprint position: (152400000, 76200000)
+[board_modifier.py:83]: Setting SW32 footprint position: (171450000, 76200000)
+[board_modifier.py:83]: Setting SW33 footprint position: (190500000, 76200000)
+[board_modifier.py:83]: Setting SW34 footprint position: (209550000, 76200000)
+[board_modifier.py:83]: Setting SW35 footprint position: (228600000, 76200000)
+[board_modifier.py:83]: Setting SW36 footprint position: (247650000, 76200000)
+[board_modifier.py:83]: Setting SW37 footprint position: (38100000, 95250000)
+[board_modifier.py:83]: Setting SW38 footprint position: (57150000, 95250000)
+[board_modifier.py:83]: Setting SW39 footprint position: (76200000, 95250000)
+[board_modifier.py:83]: Setting SW40 footprint position: (95250000, 95250000)
+[board_modifier.py:83]: Setting SW41 footprint position: (114300000, 95250000)
+[board_modifier.py:83]: Setting SW42 footprint position: (133350000, 95250000)
+[board_modifier.py:83]: Setting SW43 footprint position: (152400000, 95250000)
+[board_modifier.py:83]: Setting SW44 footprint position: (171450000, 95250000)
+[board_modifier.py:83]: Setting SW45 footprint position: (190500000, 95250000)
+[board_modifier.py:83]: Setting SW46 footprint position: (209550000, 95250000)
+[board_modifier.py:83]: Setting SW47 footprint position: (228600000, 95250000)
+[board_modifier.py:83]: Setting SW48 footprint position: (247650000, 95250000)
+[board_modifier.py:83]: Setting SW49 footprint position: (38100000, 114300000)
+[board_modifier.py:83]: Setting SW50 footprint position: (57150000, 114300000)
+[board_modifier.py:83]: Setting SW51 footprint position: (76200000, 114300000)
+[board_modifier.py:83]: Setting SW52 footprint position: (95250000, 114300000)
+[board_modifier.py:83]: Setting SW53 footprint position: (114300000, 114300000)
+[board_modifier.py:83]: Setting SW54 footprint position: (133350000, 114300000)
+[board_modifier.py:83]: Setting SW55 footprint position: (152400000, 114300000)
+[board_modifier.py:83]: Setting SW56 footprint position: (171450000, 114300000)
+[board_modifier.py:83]: Setting SW57 footprint position: (190500000, 114300000)
+[board_modifier.py:83]: Setting SW58 footprint position: (209550000, 114300000)
+[board_modifier.py:83]: Setting SW59 footprint position: (228600000, 114300000)
+[board_modifier.py:83]: Setting SW60 footprint position: (247650000, 114300000)
+[key_placer.py:907]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=7.984352, y=-2.911194, orientation=-90.0, side=<Side.BACK: 'Back'>), template_path='')]
+[board_modifier.py:96]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:83]: Setting D1 footprint position: (30115648, 41011193)
+[board_modifier.py:96]: Getting D1 footprint position: (30115648, 41011193)
+[board_modifier.py:96]: Getting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:83]: Setting D10 footprint position: (201565648, 41011193)
+[board_modifier.py:96]: Getting D10 footprint position: (201565648, 41011193)
+[board_modifier.py:96]: Getting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:83]: Setting D11 footprint position: (220615648, 41011193)
+[board_modifier.py:96]: Getting D11 footprint position: (220615648, 41011193)
+[board_modifier.py:96]: Getting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:83]: Setting D12 footprint position: (239665648, 41011193)
+[board_modifier.py:96]: Getting D12 footprint position: (239665648, 41011193)
+[board_modifier.py:96]: Getting SW13 footprint position: (38100000, 57150000)
+[board_modifier.py:83]: Setting D13 footprint position: (30115648, 60061193)
+[board_modifier.py:96]: Getting D13 footprint position: (30115648, 60061193)
+[board_modifier.py:96]: Getting SW14 footprint position: (57150000, 57150000)
+[board_modifier.py:83]: Setting D14 footprint position: (49165648, 60061193)
+[board_modifier.py:96]: Getting D14 footprint position: (49165648, 60061193)
+[board_modifier.py:96]: Getting SW15 footprint position: (76200000, 57150000)
+[board_modifier.py:83]: Setting D15 footprint position: (68215648, 60061193)
+[board_modifier.py:96]: Getting D15 footprint position: (68215648, 60061193)
+[board_modifier.py:96]: Getting SW16 footprint position: (95250000, 57150000)
+[board_modifier.py:83]: Setting D16 footprint position: (87265648, 60061193)
+[board_modifier.py:96]: Getting D16 footprint position: (87265648, 60061193)
+[board_modifier.py:96]: Getting SW17 footprint position: (114300000, 57150000)
+[board_modifier.py:83]: Setting D17 footprint position: (106315648, 60061193)
+[board_modifier.py:96]: Getting D17 footprint position: (106315648, 60061193)
+[board_modifier.py:96]: Getting SW18 footprint position: (133350000, 57150000)
+[board_modifier.py:83]: Setting D18 footprint position: (125365648, 60061193)
+[board_modifier.py:96]: Getting D18 footprint position: (125365648, 60061193)
+[board_modifier.py:96]: Getting SW19 footprint position: (152400000, 57150000)
+[board_modifier.py:83]: Setting D19 footprint position: (144415648, 60061193)
+[board_modifier.py:96]: Getting D19 footprint position: (144415648, 60061193)
+[board_modifier.py:96]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:83]: Setting D2 footprint position: (49165648, 41011193)
+[board_modifier.py:96]: Getting D2 footprint position: (49165648, 41011193)
+[board_modifier.py:96]: Getting SW20 footprint position: (171450000, 57150000)
+[board_modifier.py:83]: Setting D20 footprint position: (163465648, 60061193)
+[board_modifier.py:96]: Getting D20 footprint position: (163465648, 60061193)
+[board_modifier.py:96]: Getting SW21 footprint position: (190500000, 57150000)
+[board_modifier.py:83]: Setting D21 footprint position: (182515648, 60061193)
+[board_modifier.py:96]: Getting D21 footprint position: (182515648, 60061193)
+[board_modifier.py:96]: Getting SW22 footprint position: (209550000, 57150000)
+[board_modifier.py:83]: Setting D22 footprint position: (201565648, 60061193)
+[board_modifier.py:96]: Getting D22 footprint position: (201565648, 60061193)
+[board_modifier.py:96]: Getting SW23 footprint position: (228600000, 57150000)
+[board_modifier.py:83]: Setting D23 footprint position: (220615648, 60061193)
+[board_modifier.py:96]: Getting D23 footprint position: (220615648, 60061193)
+[board_modifier.py:96]: Getting SW24 footprint position: (247650000, 57150000)
+[board_modifier.py:83]: Setting D24 footprint position: (239665648, 60061193)
+[board_modifier.py:96]: Getting D24 footprint position: (239665648, 60061193)
+[board_modifier.py:96]: Getting SW25 footprint position: (38100000, 76200000)
+[board_modifier.py:83]: Setting D25 footprint position: (30115648, 79111193)
+[board_modifier.py:96]: Getting D25 footprint position: (30115648, 79111193)
+[board_modifier.py:96]: Getting SW26 footprint position: (57150000, 76200000)
+[board_modifier.py:83]: Setting D26 footprint position: (49165648, 79111193)
+[board_modifier.py:96]: Getting D26 footprint position: (49165648, 79111193)
+[board_modifier.py:96]: Getting SW27 footprint position: (76200000, 76200000)
+[board_modifier.py:83]: Setting D27 footprint position: (68215648, 79111193)
+[board_modifier.py:96]: Getting D27 footprint position: (68215648, 79111193)
+[board_modifier.py:96]: Getting SW28 footprint position: (95250000, 76200000)
+[board_modifier.py:83]: Setting D28 footprint position: (87265648, 79111193)
+[board_modifier.py:96]: Getting D28 footprint position: (87265648, 79111193)
+[board_modifier.py:96]: Getting SW29 footprint position: (114300000, 76200000)
+[board_modifier.py:83]: Setting D29 footprint position: (106315648, 79111193)
+[board_modifier.py:96]: Getting D29 footprint position: (106315648, 79111193)
+[board_modifier.py:96]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:83]: Setting D3 footprint position: (68215648, 41011193)
+[board_modifier.py:96]: Getting D3 footprint position: (68215648, 41011193)
+[board_modifier.py:96]: Getting SW30 footprint position: (133350000, 76200000)
+[board_modifier.py:83]: Setting D30 footprint position: (125365648, 79111193)
+[board_modifier.py:96]: Getting D30 footprint position: (125365648, 79111193)
+[board_modifier.py:96]: Getting SW31 footprint position: (152400000, 76200000)
+[board_modifier.py:83]: Setting D31 footprint position: (144415648, 79111193)
+[board_modifier.py:96]: Getting D31 footprint position: (144415648, 79111193)
+[board_modifier.py:96]: Getting SW32 footprint position: (171450000, 76200000)
+[board_modifier.py:83]: Setting D32 footprint position: (163465648, 79111193)
+[board_modifier.py:96]: Getting D32 footprint position: (163465648, 79111193)
+[board_modifier.py:96]: Getting SW33 footprint position: (190500000, 76200000)
+[board_modifier.py:83]: Setting D33 footprint position: (182515648, 79111193)
+[board_modifier.py:96]: Getting D33 footprint position: (182515648, 79111193)
+[board_modifier.py:96]: Getting SW34 footprint position: (209550000, 76200000)
+[board_modifier.py:83]: Setting D34 footprint position: (201565648, 79111193)
+[board_modifier.py:96]: Getting D34 footprint position: (201565648, 79111193)
+[board_modifier.py:96]: Getting SW35 footprint position: (228600000, 76200000)
+[board_modifier.py:83]: Setting D35 footprint position: (220615648, 79111193)
+[board_modifier.py:96]: Getting D35 footprint position: (220615648, 79111193)
+[board_modifier.py:96]: Getting SW36 footprint position: (247650000, 76200000)
+[board_modifier.py:83]: Setting D36 footprint position: (239665648, 79111193)
+[board_modifier.py:96]: Getting D36 footprint position: (239665648, 79111193)
+[board_modifier.py:96]: Getting SW37 footprint position: (38100000, 95250000)
+[board_modifier.py:83]: Setting D37 footprint position: (30115648, 98161193)
+[board_modifier.py:96]: Getting D37 footprint position: (30115648, 98161193)
+[board_modifier.py:96]: Getting SW38 footprint position: (57150000, 95250000)
+[board_modifier.py:83]: Setting D38 footprint position: (49165648, 98161193)
+[board_modifier.py:96]: Getting D38 footprint position: (49165648, 98161193)
+[board_modifier.py:96]: Getting SW39 footprint position: (76200000, 95250000)
+[board_modifier.py:83]: Setting D39 footprint position: (68215648, 98161193)
+[board_modifier.py:96]: Getting D39 footprint position: (68215648, 98161193)
+[board_modifier.py:96]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:83]: Setting D4 footprint position: (87265648, 41011193)
+[board_modifier.py:96]: Getting D4 footprint position: (87265648, 41011193)
+[board_modifier.py:96]: Getting SW40 footprint position: (95250000, 95250000)
+[board_modifier.py:83]: Setting D40 footprint position: (87265648, 98161193)
+[board_modifier.py:96]: Getting D40 footprint position: (87265648, 98161193)
+[board_modifier.py:96]: Getting SW41 footprint position: (114300000, 95250000)
+[board_modifier.py:83]: Setting D41 footprint position: (106315648, 98161193)
+[board_modifier.py:96]: Getting D41 footprint position: (106315648, 98161193)
+[board_modifier.py:96]: Getting SW42 footprint position: (133350000, 95250000)
+[board_modifier.py:83]: Setting D42 footprint position: (125365648, 98161193)
+[board_modifier.py:96]: Getting D42 footprint position: (125365648, 98161193)
+[board_modifier.py:96]: Getting SW43 footprint position: (152400000, 95250000)
+[board_modifier.py:83]: Setting D43 footprint position: (144415648, 98161193)
+[board_modifier.py:96]: Getting D43 footprint position: (144415648, 98161193)
+[board_modifier.py:96]: Getting SW44 footprint position: (171450000, 95250000)
+[board_modifier.py:83]: Setting D44 footprint position: (163465648, 98161193)
+[board_modifier.py:96]: Getting D44 footprint position: (163465648, 98161193)
+[board_modifier.py:96]: Getting SW45 footprint position: (190500000, 95250000)
+[board_modifier.py:83]: Setting D45 footprint position: (182515648, 98161193)
+[board_modifier.py:96]: Getting D45 footprint position: (182515648, 98161193)
+[board_modifier.py:96]: Getting SW46 footprint position: (209550000, 95250000)
+[board_modifier.py:83]: Setting D46 footprint position: (201565648, 98161193)
+[board_modifier.py:96]: Getting D46 footprint position: (201565648, 98161193)
+[board_modifier.py:96]: Getting SW47 footprint position: (228600000, 95250000)
+[board_modifier.py:83]: Setting D47 footprint position: (220615648, 98161193)
+[board_modifier.py:96]: Getting D47 footprint position: (220615648, 98161193)
+[board_modifier.py:96]: Getting SW48 footprint position: (247650000, 95250000)
+[board_modifier.py:83]: Setting D48 footprint position: (239665648, 98161193)
+[board_modifier.py:96]: Getting D48 footprint position: (239665648, 98161193)
+[board_modifier.py:96]: Getting SW49 footprint position: (38100000, 114300000)
+[board_modifier.py:83]: Setting D49 footprint position: (30115648, 117211193)
+[board_modifier.py:96]: Getting D49 footprint position: (30115648, 117211193)
+[board_modifier.py:96]: Getting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:83]: Setting D5 footprint position: (106315648, 41011193)
+[board_modifier.py:96]: Getting D5 footprint position: (106315648, 41011193)
+[board_modifier.py:96]: Getting SW50 footprint position: (57150000, 114300000)
+[board_modifier.py:83]: Setting D50 footprint position: (49165648, 117211193)
+[board_modifier.py:96]: Getting D50 footprint position: (49165648, 117211193)
+[board_modifier.py:96]: Getting SW51 footprint position: (76200000, 114300000)
+[board_modifier.py:83]: Setting D51 footprint position: (68215648, 117211193)
+[board_modifier.py:96]: Getting D51 footprint position: (68215648, 117211193)
+[board_modifier.py:96]: Getting SW52 footprint position: (95250000, 114300000)
+[board_modifier.py:83]: Setting D52 footprint position: (87265648, 117211193)
+[board_modifier.py:96]: Getting D52 footprint position: (87265648, 117211193)
+[board_modifier.py:96]: Getting SW53 footprint position: (114300000, 114300000)
+[board_modifier.py:83]: Setting D53 footprint position: (106315648, 117211193)
+[board_modifier.py:96]: Getting D53 footprint position: (106315648, 117211193)
+[board_modifier.py:96]: Getting SW54 footprint position: (133350000, 114300000)
+[board_modifier.py:83]: Setting D54 footprint position: (125365648, 117211193)
+[board_modifier.py:96]: Getting D54 footprint position: (125365648, 117211193)
+[board_modifier.py:96]: Getting SW55 footprint position: (152400000, 114300000)
+[board_modifier.py:83]: Setting D55 footprint position: (144415648, 117211193)
+[board_modifier.py:96]: Getting D55 footprint position: (144415648, 117211193)
+[board_modifier.py:96]: Getting SW56 footprint position: (171450000, 114300000)
+[board_modifier.py:83]: Setting D56 footprint position: (163465648, 117211193)
+[board_modifier.py:96]: Getting D56 footprint position: (163465648, 117211193)
+[board_modifier.py:96]: Getting SW57 footprint position: (190500000, 114300000)
+[board_modifier.py:83]: Setting D57 footprint position: (182515648, 117211193)
+[board_modifier.py:96]: Getting D57 footprint position: (182515648, 117211193)
+[board_modifier.py:96]: Getting SW58 footprint position: (209550000, 114300000)
+[board_modifier.py:83]: Setting D58 footprint position: (201565648, 117211193)
+[board_modifier.py:96]: Getting D58 footprint position: (201565648, 117211193)
+[board_modifier.py:96]: Getting SW59 footprint position: (228600000, 114300000)
+[board_modifier.py:83]: Setting D59 footprint position: (220615648, 117211193)
+[board_modifier.py:96]: Getting D59 footprint position: (220615648, 117211193)
+[board_modifier.py:96]: Getting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:83]: Setting D6 footprint position: (125365648, 41011193)
+[board_modifier.py:96]: Getting D6 footprint position: (125365648, 41011193)
+[board_modifier.py:96]: Getting SW60 footprint position: (247650000, 114300000)
+[board_modifier.py:83]: Setting D60 footprint position: (239665648, 117211193)
+[board_modifier.py:96]: Getting D60 footprint position: (239665648, 117211193)
+[board_modifier.py:96]: Getting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:83]: Setting D7 footprint position: (144415648, 41011193)
+[board_modifier.py:96]: Getting D7 footprint position: (144415648, 41011193)
+[board_modifier.py:96]: Getting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:83]: Setting D8 footprint position: (163465648, 41011193)
+[board_modifier.py:96]: Getting D8 footprint position: (163465648, 41011193)
+[board_modifier.py:96]: Getting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:83]: Setting D9 footprint position: (182515648, 41011193)
+[board_modifier.py:96]: Getting D9 footprint position: (182515648, 41011193)
+[board_modifier.py:96]: Getting SW56 footprint position: (171450000, 114300000)
+[board_modifier.py:63]: Searching for ST56 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW16 footprint position: (95250000, 57150000)
+[board_modifier.py:63]: Searching for ST16 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:63]: Searching for ST8 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW53 footprint position: (114300000, 114300000)
+[board_modifier.py:63]: Searching for ST53 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:63]: Searching for ST9 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW44 footprint position: (171450000, 95250000)
+[board_modifier.py:63]: Searching for ST44 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW49 footprint position: (38100000, 114300000)
+[board_modifier.py:63]: Searching for ST49 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW32 footprint position: (171450000, 76200000)
+[board_modifier.py:63]: Searching for ST32 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW18 footprint position: (133350000, 57150000)
+[board_modifier.py:63]: Searching for ST18 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW38 footprint position: (57150000, 95250000)
+[board_modifier.py:63]: Searching for ST38 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW31 footprint position: (152400000, 76200000)
+[board_modifier.py:63]: Searching for ST31 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW14 footprint position: (57150000, 57150000)
+[board_modifier.py:63]: Searching for ST14 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:63]: Searching for ST6 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW40 footprint position: (95250000, 95250000)
+[board_modifier.py:63]: Searching for ST40 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW55 footprint position: (152400000, 114300000)
+[board_modifier.py:63]: Searching for ST55 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW22 footprint position: (209550000, 57150000)
+[board_modifier.py:63]: Searching for ST22 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW30 footprint position: (133350000, 76200000)
+[board_modifier.py:63]: Searching for ST30 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW58 footprint position: (209550000, 114300000)
+[board_modifier.py:63]: Searching for ST58 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW17 footprint position: (114300000, 57150000)
+[board_modifier.py:63]: Searching for ST17 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW45 footprint position: (190500000, 95250000)
+[board_modifier.py:63]: Searching for ST45 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW33 footprint position: (190500000, 76200000)
+[board_modifier.py:63]: Searching for ST33 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW23 footprint position: (228600000, 57150000)
+[board_modifier.py:63]: Searching for ST23 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW19 footprint position: (152400000, 57150000)
+[board_modifier.py:63]: Searching for ST19 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW20 footprint position: (171450000, 57150000)
+[board_modifier.py:63]: Searching for ST20 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW29 footprint position: (114300000, 76200000)
+[board_modifier.py:63]: Searching for ST29 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW28 footprint position: (95250000, 76200000)
+[board_modifier.py:63]: Searching for ST28 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:63]: Searching for ST5 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW37 footprint position: (38100000, 95250000)
+[board_modifier.py:63]: Searching for ST37 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW34 footprint position: (209550000, 76200000)
+[board_modifier.py:63]: Searching for ST34 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW46 footprint position: (209550000, 95250000)
+[board_modifier.py:63]: Searching for ST46 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:63]: Searching for ST10 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW41 footprint position: (114300000, 95250000)
+[board_modifier.py:63]: Searching for ST41 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW13 footprint position: (38100000, 57150000)
+[board_modifier.py:63]: Searching for ST13 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW39 footprint position: (76200000, 95250000)
+[board_modifier.py:63]: Searching for ST39 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:63]: Searching for ST3 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW50 footprint position: (57150000, 114300000)
+[board_modifier.py:63]: Searching for ST50 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW15 footprint position: (76200000, 57150000)
+[board_modifier.py:63]: Searching for ST15 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW25 footprint position: (38100000, 76200000)
+[board_modifier.py:63]: Searching for ST25 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW47 footprint position: (228600000, 95250000)
+[board_modifier.py:63]: Searching for ST47 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW21 footprint position: (190500000, 57150000)
+[board_modifier.py:63]: Searching for ST21 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:63]: Searching for ST7 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW42 footprint position: (133350000, 95250000)
+[board_modifier.py:63]: Searching for ST42 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW48 footprint position: (247650000, 95250000)
+[board_modifier.py:63]: Searching for ST48 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW43 footprint position: (152400000, 95250000)
+[board_modifier.py:63]: Searching for ST43 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:63]: Searching for ST2 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW27 footprint position: (76200000, 76200000)
+[board_modifier.py:63]: Searching for ST27 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:63]: Searching for ST12 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW60 footprint position: (247650000, 114300000)
+[board_modifier.py:63]: Searching for ST60 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW26 footprint position: (57150000, 76200000)
+[board_modifier.py:63]: Searching for ST26 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW24 footprint position: (247650000, 57150000)
+[board_modifier.py:63]: Searching for ST24 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW57 footprint position: (190500000, 114300000)
+[board_modifier.py:63]: Searching for ST57 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:63]: Searching for ST4 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:63]: Searching for ST1 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW51 footprint position: (76200000, 114300000)
+[board_modifier.py:63]: Searching for ST51 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW36 footprint position: (247650000, 76200000)
+[board_modifier.py:63]: Searching for ST36 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW54 footprint position: (133350000, 114300000)
+[board_modifier.py:63]: Searching for ST54 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW35 footprint position: (228600000, 76200000)
+[board_modifier.py:63]: Searching for ST35 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW52 footprint position: (95250000, 114300000)
+[board_modifier.py:63]: Searching for ST52 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:63]: Searching for ST11 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting SW59 footprint position: (228600000, 114300000)
+[board_modifier.py:63]: Searching for ST59 footprint in /Users/tien/code/form-uno/src/pcbs/form-uno/form-uno.kicad_pcb
+[board_modifier.py:66]: Footprint not found
