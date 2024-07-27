@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/../libs/marbastlib/footprints/marbastlib-mx.pretty")(options "")(descr ""))
   (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/../libs/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
-  (lib (name "mcu")(type "KiCad")(uri "${KIPRJMOD}/../libs/kleeb/mcu.pretty")(options "")(descr ""))
+  (lib (name "rp2040-tiny")(type "KiCad")(uri "${KIPRJMOD}/../libs/rp2040-tiny.pretty")(options "")(descr ""))
 )

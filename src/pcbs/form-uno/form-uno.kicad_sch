@@ -11745,7 +11745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mcu:rp2040-zero-smd"
+		(property "Footprint" "rp2040-tiny:rp2040-tiny"
 			(at 120.65 19.05 0)
 			(effects
 				(font
