@@ -20,6 +20,16 @@ I've included links to purchase some of the parts needed for this build. They're
     - Smaller gaskets should also work, as long as they provide enough tension to securely hold the plate in place. **Just make sure the gaskets are 3mm thick.**
 
 # Build the board
+## Firmware
+This repo doesn't include the firmware for the board, so you'll need to build it yourself using [QMK](https://github.com/qmk/qmk_firmware).
+
+```json
+"matrix_pins": {
+    "cols": ["GP29", "GP28", "GP27", "GP26", "GP14", "GP15", "GP7", "GP8", "GP6", "GP5", "GP4", "GP3"],
+    "rows": ["GP10", "GP11", "GP12", "GP13", "GP2"]
+},
+```
+
 ## Prepare the case
 ### Print the case
 There are a few options for the case. You can choose either the FDM case or the resin case. They are almost identical. The only difference is that the holes for the threaded inserts are larger on the resin case.
