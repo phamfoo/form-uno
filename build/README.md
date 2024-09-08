@@ -21,14 +21,16 @@ I've included links to purchase some of the parts needed for this build. They're
 
 # Build the board
 ## Firmware
-This repo doesn't include the firmware for the board, so you'll need to build it yourself using [QMK](https://github.com/qmk/qmk_firmware).
-
+Here are some instructions for getting your firmware started [Firmware README](../src/firmware/formuno/readme.md).
+If you prefer to start from scratch this is the list of metrics pins.
 ```json
 "matrix_pins": {
     "cols": ["GP29", "GP28", "GP27", "GP26", "GP14", "GP15", "GP7", "GP8", "GP6", "GP5", "GP4", "GP3"],
     "rows": ["GP10", "GP11", "GP12", "GP13", "GP2"]
 },
 ```
+Follow the standard QMK instructions here: [QMK](https://github.com/qmk/qmk_firmware).
+
 
 ## Prepare the case
 ### Print the case
@@ -47,7 +49,7 @@ Without the blocker, the innermost thumb key can be moved to the right.
 Once the case is printed, install the threaded inserts. You'll need to install 8 on the top case and 2 on the bottom case, where the daughterboard is mounted.
 
 ## Solder the parts
-Start by soldering the hotswap sockets and the diodes. I recommend using through-hole diodes, as they are much easier to work with than the SMD ones.
+Start by soldering the hotswap sockets and the diodes. I recommend using through-hole diodes, as they are much easier to work with than the SMD ones. Please note that the diode cathode (normally marked with a black line) should be facing the triangle on the PCB, it also has a square soldering point on the PCB. 
 
 Next, solder the RP2040 Tiny to the PCB.
 
